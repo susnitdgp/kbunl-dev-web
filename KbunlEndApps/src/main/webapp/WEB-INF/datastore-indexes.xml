@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xml>
+<datastore-indexes autoGenerate="false">
+	<datastore-index kind="ItComplain" ancestor="false" source="manual">
+	 	<property name="user" direction="desc" />
+	 	<property name="status" direction="desc" />
+	 	<property name="time" direction="desc" />
+	</datastore-index>
+	<datastore-index kind="ItComplain" ancestor="false" source="manual">
+	 	<property name="status" direction="desc" />
+	 	<property name="time" direction="desc" />
+	</datastore-index>
+</datastore-indexes>
